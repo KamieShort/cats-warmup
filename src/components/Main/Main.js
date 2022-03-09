@@ -7,7 +7,9 @@ import './Main.css';
 export default function Main() {
   return (
     <div className="main">
-      {/* map through each of the cats and display an ImageItem component */}
+      {cats.map((item) => (
+        <ImageItem key={item.name} type={item.type} year={item.year} lives={item.lives} />
+      ))}
     </div>
   );
 }
