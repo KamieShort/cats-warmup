@@ -6,6 +6,9 @@ export default function ImageItem(props) {
       <h3>{props.name}</h3>
       <img alt={props.name} width="100" src={props.url} />
       <p>{props.type}</p>
+      <p>{props.year}</p>
+      <p>{props.lives}</p>
+      <p>{props.isSidekick}</p>
     </div>
   );
 }
