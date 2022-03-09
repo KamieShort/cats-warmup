@@ -8,7 +8,7 @@ export default function ImageItem(props) {
       <p>{props.type}</p>
       <p>{props.year}</p>
       <p>{props.lives}</p>
-      <p>{props.isSidekick}</p>
+      <span>{props.isSidekick}</span>
     </div>
   );
 }
